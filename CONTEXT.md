@@ -23,4 +23,7 @@ crontab on Linux. _Avoid_: engine, provider
 **Run**: One execution of a **Job**, with a start time, an exit status and captured output. _Avoid_:
 execution, invocation
 
+**Drift**: The state of a **Job** whose **Backend** entry is missing or no longer matches what
+das-scheduler recorded. _Avoid_: out of sync, mismatch
+
 **Task**: Reserved for an entry in Windows Task Scheduler, never for a **Job**.
